@@ -4,4 +4,7 @@ def ordered_count(s)
     a = Hash.new(0)
     s.chars.map{ |e| a[e] += 1 }
     a.to_a
+
+    # str.chars.uniq.map{|i| [i, str.count(i)]}
+
 end
